@@ -5,9 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Joke Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <main class="flex justify-center items-center h-[100vh] bg-slate-50">
+        <section class="border-2 w-9/12 h-96 relative rounded-xl shadow-inner bg-white">
+            <div class="border-2 my-10 mx-5 px-5 py-3 text-center" id="joke-message">😂Clicked on Random Joke button 😂</div>
+            <button class="border-2 absolute bottom-10 left-72 py-2 px-10 rounded-2xl font-semibold bg-black text-white hover:bg-white hover:text-black drop-shadow-2xl shadow-2xl" id="joke">Random Joke</button>
+        </section>
+    </main>
+
+
     <script src="js/script.js"></script>
 </body>
 </html>
